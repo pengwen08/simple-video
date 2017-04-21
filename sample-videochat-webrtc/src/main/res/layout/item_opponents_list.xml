@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ListItem"
+    android:layout_height="match_parent"
+    android:layout_alignParentBottom="false"
+    android:layout_alignParentEnd="false"
+    android:layout_alignParentLeft="false"
+    android:layout_alignParentRight="false"
+    android:layout_alignParentStart="false"
+    android:layout_alignParentTop="false"
+    android:layout_alignWithParentIfMissing="false"
+    android:addStatesFromChildren="false"
+    android:minHeight="0dp"
+    android:paddingBottom="@dimen/list_item_padding_bottom"
+    android:paddingTop="@dimen/list_item_padding_top">
+
+    <ImageView
+        android:id="@+id/image_opponent_icon"
+        style="@style/ListItemIconStyle"
+        android:layout_width="750dp"
+        android:layout_height="750dp"
+        android:layout_marginLeft="@dimen/padding_start"
+        android:layout_marginStart="@dimen/padding_start"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="800dp"
+        android:layout_height="900dp"
+        android:src="@drawable/dps" />
+
+    <TextView
+        android:id="@+id/opponentsName"
+        style="@style/MatchWidth"
+        android:layout_height="0dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone"
+        tools:text="User Name" />
+
+</LinearLayout>
